@@ -1,0 +1,109 @@
+﻿City,Subject,Centre Name,Children Available,lat,long
+Bengaluru,Arts & Crafts,"Petra Education Trust, Lal Bahadur Shastri Nagar",21,12.975545,77.670553
+Bengaluru,Computers,"Petra Education Trust, Lal Bahadur Shastri Nagar",12,12.975545,77.670553
+Bengaluru,Mathematics,Sath Trust,44,12.991814,77.687174
+Bengaluru,Science,"ANC Rainbow Home, Chamarajpet",16,12.959394,77.565428
+Bengaluru,Science,"Thayi Mane, Sarjapur",19,12.897153,77.722739
+Bengaluru,English,Lakshya Udaan,34,12.946224,77.588589
+Chennai,Dance,"Arun Rainbow Home, Chetpet",17,13.072673,80.242841
+Chennai,Dance,"Marialaya, George Town",37,13.103283,80.285736
+Chennai,Dance,"Seva Samajam, Tharamani",36,13.001943,80.243757
+Chennai,Computers,"Jeevadhanam, Adyar",9,13.008273,80.262275
+Chennai,Computers,"Seva Chakra, Choolai",28,13.087886,80.268034
+Chennai,Computers,"Sevalaya, Tiruninravur",25,13.17642,80.026007
+Chennai,Mentoring,"Madras Seva Sadhan, Harrington Road",40,13.069469,80.238779
+Chennai,Mathematics,"Madras Seva Sadan, Chetpet",15,13.069469,80.238779
+Chennai,Mathematics,"Seva Samajam, Tharamani",34,13.001943,80.243757
+Chennai,Science,"Avvai Home, Adyar",47,13.008273,80.262275
+Chennai,Science,Paadhai Girls Home,6,13.040797,80.175885
+Chennai,Science,"Sevalaya, Tiruninravur",17,13.17642,80.026007
+Chennai,English,"Arun Rainbow Home, Purasaiwalkam",14,13.0805249,80.25092664
+Chennai,English,"Avvai Home, Adyar",32,13.008273,80.262275
+Chennai,English,"Love care, Kancheepuram",54,12.727986,79.767559
+New Delhi,Mathematics,Katyayani Balika Ashram,26,28.64407,77.199435
+New Delhi,English,Katyayani Balika Ashram,26,28.64407,77.199435
+Kolkata,Arts & Crafts,"Adruta Children's Home, Puri",7,20.327022,85.83345
+Kolkata,Arts & Crafts,"Calcutta Social Project, Hazra",21,22.522971,88.354282
+Kolkata,Arts & Crafts,"Loreto Rainbow Home, Bowbazaar",16,22.549755,88.351981
+Kolkata,Arts & Crafts,"Nivedita Nari Sangstha, Silchar Meherpur",8,24.786444,92.800361
+Kolkata,Dance,"Adruta Children's Home, Bolangir",12,20.721276,83.431552
+Kolkata,Dance,"Adruta Children's Home, Cuttuck",32,20.327042,85.833483
+Kolkata,Dance,"Adruta Children's Home, Keonjhar",12,21.618693,85.648571
+Kolkata,Dance,"Eleizer Children Home, Dimapur",8,25.855463,93.772381
+Kolkata,Computers,"Adruta Children's Home, Keonjhar",5,21.618693,85.648571
+Kolkata,Computers,"Adruta Children's Home, Puri",14,20.327022,85.83345
+Kolkata,Computers,Ek Tara,20,22.538462,88.381718
+Kolkata,Computers,"Loreto Rainbow Home, Shanthi Rani",9,22.549795,88.351938
+Kolkata,Computers,"Preorna Children home boys, Dibrugarh",9,27.465799,94.908092
+Kolkata,Computers,"Prerona Children home Girls, Dibrugarh",6,27.465799,94.908092
+Kolkata,Mentoring,"Calcutta Social Project, Hazra",27,22.522971,88.354282
+Kolkata,Mentoring,"Loreto Rainbow Home, Bowbazaar",31,22.549755,88.351981
+Kolkata,Mentoring,"Loreto Rainbow Home, Dharmtala",31,22.549726,88.351831
+Kolkata,Mathematics,"Adruta Children's Home, Bolangir",9,20.721276,83.431552
+Kolkata,Mathematics,"Adruta Children's Home, Keonjhar",20,21.618693,85.648571
+Kolkata,Mathematics,"Loreto Rainbow Home, Bowbazaar",24,22.549755,88.351981
+Kolkata,Mathematics,"Loreto Rainbow Home, Elliot Road",53,22.549795,88.351938
+Kolkata,Mathematics,"Loreto Rainbow Home, Park Street",36,22.549726,88.351831
+Kolkata,Mathematics,"Loreto Rainbow Home, Shanthi Rani",43,22.549795,88.351938
+Kolkata,Mathematics,"SOS Children's Village, Salt Lake City",11,22.586591,88.42861
+Kolkata,Science,"Adruta Children's Home, Bolangir",10,20.721276,83.431552
+Kolkata,English,"Adruta Children's Home, Puri",17,20.327022,85.83345
+Kolkata,English,"Adruta Children's Home, Sundergarh",24,22.128259,84.058315
+Kolkata,English,"Loreto Rainbow Home, Elliot Road",6,22.549795,88.351938
+Kolkata,English,"Loreto Rainbow Home, Shanthi Rani",33,22.549795,88.351938
+Kolkata,Robotics,"Calcutta Social Project, Hazra",12,22.522971,88.354282
+Kolkata,Robotics,Ek Tara,20,22.538462,88.381718
+Kolkata,Robotics,"Preorna Children home boys, Dibrugarh",8,27.465799,94.908092
+Patna,Computers,"Gharaunda Vikasarth Rainbow Homes , Anisabad",27,25.576024,85.092884
+Patna,Computers,"Gyan Vigyan Rainbow Homes, Danapur",24,25.607966,85.104818
+Patna,Computers,"Kasturba Gandhi Balika Vidyalaya,Patna",70,25.580764,85.039711
+Patna,Computers,"Rainbow home kute-Girls,Patna",4,25.615334,85.10709
+Patna,Computers,"Snehghar bariyatu-Boys,Patna",13,25.620088,85.125628
+Patna,Mathematics,"Gharaunda Vikasarth Rainbow Homes , Anisabad",15,25.576024,85.092884
+Patna,Mathematics,"Kumhara Rainbow Home, Kumhara",22,25.591502,85.187666
+Patna,Mathematics,"Muskurahat Aman Sneh Ghar , Patna",26,25.609731,85.108174
+Patna,Science,"BGVS RAINBOW HOME,Danapur",19,25.608263,85.198273
+Patna,Science,"Rainbow Homes, Rajbanshi Nagar",27,25.608021,85.104913
+Pune,Arts & Crafts,"Aajol Center, Sinhgad Road",4,18.460858,73.793889
+Pune,Dance,"Matruchchaya Balakashram, Dighi",19,18.618163,73.87783
+Pune,Dance,"SASA, Dapodi",20,18.57712,73.832497
+Pune,Dance,"Samata Prathishthan, Bhim Nagar",16,18.509871,73.868402
+Pune,Computers,Lion's Balgruh,6,20.900205,74.732868
+Pune,Computers,"Samata Prathishthan, Bhim Nagar",9,18.509871,73.868402
+Pune,Computers,"Savlee NGO, AhmedNagar",11,19.076943,74.707804
+Pune,Mentoring,"Baitul Yateem, Aurangabad",22,19.894977,75.333022
+Pune,Mentoring,"SASA, Dapodi",39,18.57712,73.832497
+Pune,Mentoring,"Unnati Balgram, Kamshet",13,18.449718,73.935287
+Pune,Mathematics,"Aajol Center, Sinhgad Road",4,18.460858,73.793889
+Pune,Mathematics,"Janseva Foundation, Katraj",57,18.508803,73.843524
+Pune,Mathematics,"Matruchchaya Balakashram, Dighi",11,18.618163,73.87783
+Pune,Mathematics,New Bhimnagar,37,19.966288,75.329173
+Pune,Mathematics,"Sarva Seva Sangh, Vadgaon Sheri",9,18.545445,73.921515
+Pune,Mathematics,"Savlee NGO, AhmedNagar",13,19.076943,74.707804
+Pune,Mathematics,"St George Balikagram, Dehu Road",16,18.679779,73.716447
+Pune,Mathematics,"Sumati Balwan, Katraj",40,18.427662,73.878454
+Pune,Science,Lion's Balgruh,7,20.900205,74.732868
+Pune,Science,Maharshi Karve Stree Shikshan Samstha's Sr. Balgraha,3,18.487561,73.815177
+Pune,Science,"Nirmal Balvikas Sanstha,Pune",8,20.900205,74.732868
+Pune,Science,"St George Balikagram, Dehu Road",4,18.679779,73.716447
+Pune,English,"Eklavya, Mandai",24,18.51457632,73.85548071
+Pune,English,"Nirankar Balgram, Hadapsar",9,18.489998,73.929385
+Pune,English,"Unnati Balgram, Kamshet",13,18.449718,73.935287
+Pune,Robotics,"PCMC High School, Pimple Gurav",5,18.592645,73.819682
+Trichy,Arts & Crafts,"Karunai vizhigal Trust, Bunagiri",15,11.810262,79.747822
+Trichy,Arts & Crafts,"TELC Annai, Kempstown",17,10.803648,78.695375
+Trichy,Dance,Nagammaiyar Children's Home,37,10.717095,78.727956
+Trichy,Dance,"TELC Annai, Kempstown",31,10.803648,78.695375
+Trichy,Computers,"Anbagam, Thirunedungulam",9,10.774711,78.851446
+Trichy,Computers,Nagammaiyar Children's Home,17,10.717095,78.727956
+Trichy,Computers,"TELC Annai, Kempstown",10,10.803648,78.695375
+Trichy,Mentoring,"Friendship children home, Sirganur",22,11.016858,78.788219
+Trichy,Mentoring,"Hope for Hopeless, Rettaivaikal",58,10.818279,78.65284
+Trichy,Mentoring,"TELC Annai, Kempstown",21,10.803648,78.695375
+Trichy,Mathematics,Bishop Hymen Primary School,35,10.825882,78.693589
+Trichy,Mathematics,"TELC Annai, Kempstown",41,10.803648,78.695375
+Trichy,English,"CE Home, Vannarapettai",8,10.810205,78.676637
+Trichy,English,Gypsy Children Home,18,10.783584,78.663633
+Trichy,English,"Hope for Hopeless, Rettaivaikal",8,10.818279,78.65284
+Trichy,English,"TELC Girls Home Kempstown, Palakarai",25,10.803648,78.695375
+,,,2241,,
