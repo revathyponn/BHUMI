@@ -30,7 +30,7 @@ tab_style = {
 # Define the style for the selected tab
 selected_tab_style = {
     'height': '30px',
-    'padding': '10px',
+    'padding': '3px',
     'borderTop': '2px solid #f5f5f5',
     'borderBottom': '2px solid #f5f5f5',
     'backgroundColor': '#119DFF',
@@ -117,12 +117,20 @@ def update_map(city, children_range):
         hover_data=['Children Available'],
         opacity=0.7,
         zoom=10,
-        mapbox_style='open-street-map'
+        mapbox_style='open-street-map',
+        
     )
-    fig.update_layout(autosize=True,
-                      margin=dict(l=0, r=0, t=0, b=0))
+    fig.update_layout(autosize=True,title=dict(
+            text='Map of Children Centers in {}'.format(city),
+            y=0.98,
+            x=0.45,
+            pad=dict(t=20, b=20, l=20, r=20),
+            bgcolor= 'rgba(0,0,0,0)',
+            xanchor='right',
+            yanchor='top'
+        ),
+        margin=dict(l=0, r=0, t=0, b=0))
     return fig
-
 @app.callback(
     dash.dependencies.Output('bar-graph', 'figure'),
     [dash.dependencies.Input('city-dropdown', 'value'),
