@@ -13,15 +13,17 @@ My dashboard is a dash app created for Bhumi NGO. Bhumi is a non-profit organiza
 
 Ignite is one of Bhumi's programs that is focused on providing digital literacy and computer education to children in underprivileged communities. The program aims to bridge the digital divide and equip children with the skills they need to succeed in the 21st century.who has been teaching. 
 
+## Proposal 
+This dashboard aims to provide information to the volunteers who are interested in joining Bhumi as volunteers and shelter homes which want to be affiliated with Bhumi. Please find more information about [proposal](https://github.com/revathyponn/BHUMI/blob/main/proposal.md).
 
 ## Dashboard Contents: What?
 
 Upon launch of the Dash app, users are met with a detailed summary of Bhumi, the details of centers in each city in India. Users can toggle between three different tabs, showing different levels of summary information. The two tabs are described below. 
 
 ### Tab 1: About
+Introduction about Bhumi and the purpose of this application
 
-### Tab 1: Center Details
-
+### Tab 2: Center Details
 
 > Users can explore different data filters using the filter pane on the top. These filters will update the main visuals on the page. Users can filter the centers based on city and the subjects taught in those centers. 
 
@@ -37,7 +39,7 @@ The summary visuals on page 1 are comprised of:
 
 <img src="img/view-1.png">
 
-### Tab 2: Datatable
+### Tab 3: Datatable
 
 > This is the Master data received from the Bhumi NGO.
 
