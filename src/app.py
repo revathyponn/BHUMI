@@ -3,6 +3,7 @@ import plotly.express as px
 import dash
 from dash import dcc
 from dash import html, dash_table
+import dash_bootstrap_components as dbc
 
 # Load data into a Pandas DataFrame
 df = pd.read_csv("../data/Centre_Details_Data.csv")
@@ -17,8 +18,11 @@ city_options = [
     {"label": "Trichy", "value": "Trichy"}
 ]
 
+
+
+
 # Create the app
-app = dash.Dash(__name__)
+app = dash.Dash(__name__, external_stylesheets=[dbc.themes.BOOTSTRAP])
 
 server = app.server
 # Define the style for the tabs
@@ -40,9 +44,9 @@ selected_tab_style = {
 app.layout = html.Div(children=[
     html.Div(children=[
         html.H2('Bhumi NGO', style={'color': 'white','background-color': 'black','padding': '5px'}),
-        html.P("One of India's largest NGO volunteer organizations"),
-        html.P("Bhumi was founded on August 15, 2006 by a group of friends, who believed that every underprivileged child deserves quality education. Since then, Bhumi has transformed this conviction into a volunteering opportunity"),
-        html.P("for India’s youth, launching a snowball effect of nurturing talent on the path to an educated, poverty-free India."),
+        # html.P("One of India's largest NGO volunteer organizations"),
+        # html.P("Bhumi was founded on August 15, 2006 by a group of friends, who believed that every underprivileged child deserves quality education. Since then, Bhumi has transformed this conviction into a volunteering opportunity"),
+        # html.P("for India’s youth, launching a snowball effect of nurturing talent on the path to an educated, poverty-free India."),
     ], style={'padding': '0.05px'}),
 
     html.Div(children=[
@@ -57,28 +61,14 @@ app.layout = html.Div(children=[
                         style={"width": "150px", "fontsize": "1px"}
                     ),
                 ], style={'display': 'flex', 'align-items': 'center', 'margin-top': '10px', 'margin-bottom': '10px'}),
+                
                 html.Div(children=[
-                    dcc.Slider(
-                        id='children-slider',
-                        min=0,
-                        max=70,
-                        step=10,
-                        value=0,
-                        marks={0: {'label': '0', 'style': {'color': '#77b0b1'}},
-                            10: {'label': '10'},
-                            20: {'label': '20'},
-                            30: {'label': '30'},
-                            40: {'label': '40'},
-                            50: {'label': '50'},
-                            60: {'label': '60'},
-                            70: {'label': '70'}
-                            })
-              
-                ], style = {'height': '12px','padding':'25px'}),
-
-                html.Div(children=[
-                    dcc.Graph(id='map-graph', style={'width': '50%','height':'500px', 'display': 'inline-block'}),
-                    dcc.Graph(id='bar-graph', style={'width': '50%', 'height':'500px','display': 'inline-block'}),
+                    dcc.Graph(id='map-graph', style={'width': '50%','height':'500px', 'display': 'inline-block','border': '2px solid #ccc',
+        'border-radius': '5px',
+        'padding': '10px'}),
+                    dcc.Graph(id='bar-graph', style={'width': '50%', 'height':'500px','display': 'inline-block','border': '2px solid #ccc',
+        'border-radius': '5px',
+        'padding': '10px'}),
                     #dcc.Graph(id='ratio-graph', style={'width': '50%', 'display': 'inline-block'})
                 ])
             ]),
@@ -104,28 +94,28 @@ app.layout = html.Div(children=[
 # Define the callbacks
 @app.callback(
     dash.dependencies.Output('map-graph', 'figure'),
-    [dash.dependencies.Input('city-dropdown', 'value'),
-     dash.dependencies.Input('children-slider', 'value')]
+    [dash.dependencies.Input('city-dropdown', 'value')]
 )
-def update_map(city, children_range):
-    filtered_df = df[(df['City'] == city) & (df['Children Available'].between(0,70))]
+def update_map(city):
+    filtered_df = df[(df['City'] == city)]
     fig = px.scatter_mapbox(
         filtered_df,
         lat='lat',
         lon='long',
         hover_name='Centre Name',
-        hover_data=['Children Available'],
+        hover_data=['Children Available','Volunteer count','Subject'],
         opacity=0.7,
         zoom=10,
         mapbox_style='open-street-map',
+       color_discrete_sequence=['black']
         
     )
     fig.update_layout(autosize=True,title=dict(
             text='Map of Children Centers in {}'.format(city),
-            y=0.98,
-            x=0.45,
+            y=0.99,
+            x=0.5,
             pad=dict(t=20, b=20, l=20, r=20),
-            bgcolor= 'rgba(0,0,0,0)',
+            # bgcolor= 'rgba(0,0,0,0)',
             xanchor='right',
             yanchor='top'
         ),
@@ -133,12 +123,11 @@ def update_map(city, children_range):
     return fig
 @app.callback(
     dash.dependencies.Output('bar-graph', 'figure'),
-    [dash.dependencies.Input('city-dropdown', 'value'),
-     dash.dependencies.Input('children-slider', 'value')]
+    [dash.dependencies.Input('city-dropdown', 'value')]
 )
 
-def update_bar(city, children_range):
-    filtered_df = df[(df['City'] == city) & (df['Children Available'].between(0, 70))]
+def update_bar(city):
+    filtered_df = df[(df['City'] == city)]
     fig = px.bar(
         filtered_df, 
         x='Centre Name', 
