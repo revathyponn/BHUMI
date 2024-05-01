@@ -4,7 +4,7 @@
 
 |                    |                                                                       |
 |--------------------|-----------------------------------------------------------------------|
-| Who am I           | Upcoming Geospatial Datascientist and Bhumi Volunteer                 |
+| Who am I           | Geospatial Datascientist and Bhumi Volunteer                 |
 | Our goal           | To help Bhumi in getting new volunteers and new centers               |
 | Target Audience    | Shelter homes and Individuals                                         |
 | Secondary Audience | People interested in donating for a cause to support Bhumi's mission  |
